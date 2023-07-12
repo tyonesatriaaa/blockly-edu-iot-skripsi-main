@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+.body, html {
+    font-family: "Poppins";
+}
+
+.background, html {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* background: rgb(6, 22, 85);
+    background: linear-gradient(90deg, rgba(6, 22, 85, 1) 0%, rgba(111, 11, 113, 1) 59%, rgba(250, 9, 255, 1) 100%); */
+    font-family: "Poppins";
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.level {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Poppins";
+    
+}
+
+.levels {
+    font-family: "Poppins";
+}
+
+/* .p {
+    font-weight: semibold;
+} */
+
+.spacing-text {
+    letter-spacing: 0.03em;
+}
+
+.btn-primary-1 {
+    color: #fff;
+    background-color: #199BE9;
+    border-color: #66B3E1;
+    font-weight: semibold;
+    letter-spacing: 0.00em;
+    border-radius: 0;
+    border-radius: 10px;
+}
+.btn-primary-1:hover,
+.btn-primary-1:active,
+.btn-primary-1:focus,
+.btn-primary-1.active {
+    /* let's darken #004E64 a bit for hover effect */
+    background: #1782c4;
+    color: #ffffff;
+    border-color: #66B3E1;
+}
+/* .App {
+    background: rgb(6, 22, 85);
+    background: linear-gradient(90deg, rgba(6, 22, 85, 1) 0%, rgba(111, 11, 113, 1) 59%, rgba(250, 9, 255, 1) 100%);
+} */
