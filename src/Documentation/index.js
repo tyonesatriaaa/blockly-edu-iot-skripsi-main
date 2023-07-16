@@ -204,7 +204,7 @@ export default class index extends Component {
             
             <footer class="footer text-center">
               <div class="container">
-                <small class="copyright">Designed with by JTI Polinema</small>
+                <small class="copyright">Designed by JTI Polinema</small>
               </div>
             </footer>
           </div>
