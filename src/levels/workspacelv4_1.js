@@ -476,7 +476,7 @@ export default function Workspace() {
                                     <Link to="/contoh4">
                                         <li class="page-item"><a class="page-link">Back To Example</a></li>
                                     </Link>
-                                    <Link to="/">
+                                    <Link to="/tantangan">
                                         <li class="page-item"><a class="page-link">Challanges</a></li>
                                     </Link>
                                 </ul>
