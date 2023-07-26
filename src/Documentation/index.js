@@ -143,11 +143,7 @@ export default class index extends Component {
                     </div>
                 </SwiperSlide> */}
               </Swiper>
-              <section class="cards-section text-center">
-                <div class="container">
-                  <div class="code-block">
-                    <h2 class="title">Part of Documentation</h2>
-                  </div>
+   
                   
                   {/* <div class="intro">
                     <p class="text-normal">
@@ -163,43 +159,7 @@ export default class index extends Component {
                     </div>
                   </div> */}
                   
-                  <div id="cards-wrapper" class="cards-wrapper row">
-                    <div class="item item-green col-lg-4 col-6">
-                      <div class="item-inner">
-                        <div class="icon-holder">
-                          <FontAwesomeIcon icon={faPuzzlePiece} class="icon fa" />
-                          {/* <i class="icon fa fa-paper-plane"></i> */}
-                        </div>
-                        <h3 class="title">Introduction & Getting Started</h3>
-                        <p class="intro">Perkenalan Mengenai Aplikasi dan Fiturnya</p>
-                        <a class="link" href="/introduction"><span></span></a>
-                      </div>
-                    </div>
-                    <div class="item item-primary col-lg-4 col-6">
-                      <div class="item-inner">
-                        <div class="icon-holder">
-                          <FontAwesomeIcon icon={faPuzzlePiece} class="icon fa" />
-                          {/* <span aria-hidden="true" class="icon icon_genius"></span> */}
-                        </div>
-                        <h3 class="title">Variasi Blok</h3>
-                        <p class="intro">Macam-macam blok yang ada</p>
-                        <a class="link" href="/variasiblok"><span></span></a>
-                      </div>
-                    </div>
-                    <div class="item item-orange col-lg-4 col-6">
-                      <div class="item-inner">
-                        <div class="icon-holder">
-                          <FontAwesomeIcon icon={faPuzzlePiece} class="icon fa" />
-                          {/* <span aria-hidden="true" class="icon icon_gift"></span> */}
-                        </div>
-                        <h3 class="title">Operasi Logika Blockly</h3>
-                        <p class="intro">Dasar dan cara melakukan operasi logika pada aplikasi</p>
-                        <a class="link" href="/operasilogika"><span></span></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+
             </div>
             
             <footer class="footer text-center">

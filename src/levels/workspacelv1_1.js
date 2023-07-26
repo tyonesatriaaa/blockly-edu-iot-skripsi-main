@@ -37,9 +37,9 @@ function generateString(length) {
 
 //data mqtt
 const dataMqtt = {
-    host: "192.168.1.102",
+    host: "mqtt-dashboard.com",
     clientId: generateString(5),
-    port: 1884,
+    port: 8000,
     username: "vedc",
     password: "vedc",
 };
@@ -216,7 +216,7 @@ export default function Workspace() {
     const mqttConnect = () => {
         const { host, clientId, port, username, password } = dataMqtt;
         // const url = `ws://${host}:${port}/ws`;
-        const url = `ws://${host}:${port}/mqtt`;
+        const url = `mqtt://${host}:${port}/mqtt`;
         // const url = `mqtt://${host}:${port}`;
         const options = {
             keepalive: 30,
